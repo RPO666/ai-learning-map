@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11162e">
+  <meta name="description" content="用生活例子理解 AI、模型架構與效率技術的互動式學習地圖。">
+  <title>AI 學習地圖 — 把複雜的事，學得有方向</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script type="module" src="./scripts/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至主要內容</a>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="./index.html" aria-label="AI 學習地圖首頁">
+        <span class="brand-icon" aria-hidden="true">A<span>✳</span></span>
+        <span>AI <strong>學習地圖</strong><small>LEARNING ATLAS</small></span>
+      </a>
+      <nav class="nav-links" aria-label="主要導覽">
+        <a class="active" href="./index.html" aria-current="page">首頁</a>
+        <a href="#learning-path">學習路線</a>
+        <a href="#concepts">概念圖鑑</a>
+        <a href="./guide.html">使用指南 <span aria-hidden="true">↗</span></a>
+      </nav>
+      <a class="nav-cta" href="#concepts">開始探索 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> YOUR PERSONAL AI FIELD GUIDE</span>
+          <h1 id="hero-title">讓 AI 知識，<br><em>從難懂變好懂。</em></h1>
+          <p>機器學習、CNN、Transformer、模型壓縮……不用一次搞懂所有名詞。從一個生活例子開始，沿著地圖，慢慢連起自己的 AI 知識網。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#concepts">探索學習卡片 <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="./guide.html">網站使用指南</a>
+          </div>
+          <div class="hero-metrics" aria-label="網站收錄資訊">
+            <div><strong id="hero-count">13</strong><span>學習概念</span></div>
+            <div class="vertical-line" aria-hidden="true"></div>
+            <div><strong>04</strong><span>核心主題</span></div>
+            <div class="vertical-line" aria-hidden="true"></div>
+            <div><strong>∞</strong><span>持續擴充</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="art-glow"></div>
+          <div class="concept-node node-center"><span class="node-icon">✳</span><b>AI</b><small>你的起點</small></div>
+          <div class="concept-node node-top"><span class="node-emoji">🧠</span><b>Neural Network</b><small>神經網路</small></div>
+          <div class="concept-node node-right"><span class="node-emoji">⚡</span><b>Efficiency</b><small>模型效率</small></div>
+          <div class="concept-node node-bottom"><span class="node-emoji">🧩</span><b>Transformer</b><small>語言模型基礎</small></div>
+          <span class="star star-one">✦</span><span class="star star-two">✧</span><span class="star star-three">✳</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-strip" aria-label="學習理念">
+      <div class="container strip-inner"><span>NO JARGON FIRST</span><span aria-hidden="true">✳</span><span>從生活類比開始</span><span aria-hidden="true">✳</span><span>每個概念都有應用場景</span><span aria-hidden="true">✳</span><span>自己決定學習節奏</span></div>
+    </section>
+
+    <section class="section path-section" id="learning-path" aria-labelledby="path-title">
+      <div class="container">
+        <div class="section-topline"><span class="section-label">01 / LEARNING PATH</span><span class="topline-rule" aria-hidden="true"></span><span class="section-aside">先選一條路，再一步步走</span></div>
+        <div class="section-heading"><div><h2 id="path-title">四條路線，<br><span>走出自己的學習節奏。</span></h2></div><p>不需要照單全收。選擇你最感興趣的主題，從卡片開始；看懂後，再試著說給別人聽。</p></div>
+        <div class="path-grid">
+          <a class="path-card path-one" href="#concepts" data-category-link="基礎觀念"><span class="path-number">01 / START HERE</span><span class="path-symbol" aria-hidden="true">✦</span><h3>基礎觀念</h3><p>先理解 AI、機器學習與深度學習的關係。</p><span class="path-footer">從零開始 <span aria-hidden="true">↗</span></span></a>
+          <a class="path-card path-two" href="#concepts" data-category-link="模型架構"><span class="path-number">02 / HOW IT WORKS</span><span class="path-symbol" aria-hidden="true">◈</span><h3>模型架構</h3><p>了解神經網路、CNN、RNN 與 Transformer。</p><span class="path-footer">拆解原理 <span aria-hidden="true">↗</span></span></a>
+          <a class="path-card path-three" href="#concepts" data-category-link="模型效率"><span class="path-number">03 / MAKE IT SMALL</span><span class="path-symbol" aria-hidden="true">↘</span><h3>模型效率</h3><p>探索量化、剪枝與知識蒸餾的實際用途。</p><span class="path-footer">做得更輕 <span aria-hidden="true">↗</span></span></a>
+          <a class="path-card path-four" href="#concepts" data-category-link="工程實作"><span class="path-number">04 / BUILD & SHIP</span><span class="path-symbol" aria-hidden="true">⌘</span><h3>工程實作</h3><p>從框架、部署到 RAG，知道技術何時派上用場。</p><span class="path-footer">動手實踐 <span aria-hidden="true">↗</span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section library-section" id="concepts" aria-labelledby="concepts-title">
+      <div class="container">
+        <div class="section-topline"><span class="section-label">02 / CONCEPT LIBRARY</span><span class="topline-rule" aria-hidden="true"></span><span class="section-aside">一張卡片，就是一個新理解</span></div>
+        <div class="section-heading"><div><h2 id="concepts-title">打開一張卡片，<br><span>學會一個概念。</span></h2></div><p>搜尋關鍵字、挑選主題、標記已讀。進度會保留在目前使用的瀏覽器中。</p></div>
+
+        <div class="progress-panel" aria-label="你的學習進度">
+          <div class="progress-meta"><div><span class="progress-eyebrow">YOUR PROGRESS <span aria-hidden="true">✳</span></span><p><strong id="completed-count">0</strong> / <span id="total-count">13</span> <span>個概念已完成</span></p></div><span class="progress-percent" id="progress-percent">0%</span></div>
+          <div class="progress-track" role="progressbar" aria-label="完成學習比例" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-track"><span id="progress-fill"></span></div>
+          <small>你的進度只存在這台裝置的瀏覽器，沒有上傳伺服器。</small>
+        </div>
+
+        <div class="toolbar">
+          <label class="search-field" for="search-input"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m16.5 16.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="search-input" type="search" placeholder="搜尋概念，例如 CNN、量化、部署…" autocomplete="off"></label>
+          <label class="filter-wrap" for="category-filter"><span>主題</span><select id="category-filter"><option value="all">所有主題</option><option value="基礎觀念">基礎觀念</option><option value="模型架構">模型架構</option><option value="模型效率">模型效率</option><option value="工程實作">工程實作</option></select></label>
+          <label class="toggle-filter"><input type="checkbox" id="incomplete-only"><span>只看未完成</span></label>
+        </div>
+        <div class="results-bar"><span id="results-status" role="status" aria-live="polite">載入學習卡片中…</span><button class="text-button" id="clear-filters" type="button">清除篩選 ↺</button></div>
+        <div class="concept-grid" id="concept-grid" aria-live="off"></div>
+        <div class="empty-state" id="empty-state" hidden><div aria-hidden="true">⌁</div><h3>找不到符合的概念</h3><p>試試其他關鍵字，或清除篩選條件。</p><button type="button" class="button button-dark" id="empty-reset">顯示全部卡片</button></div>
+      </div>
+    </section>
+
+    <section class="closing-section" aria-labelledby="closing-title"><div class="container closing-inner"><div><span class="section-label">KEEP EXPLORING ↗</span><h2 id="closing-title">好的學習，不是記住名詞。<br>是終於能用自己的話說清楚。</h2></div><a class="button button-light" href="./guide.html">看看怎麼使用本站 <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div><div class="footer-logo">AI ✳ 學習地圖</div><p>從一個問題出發，逐步建立自己的 AI 知識。</p></div><div class="footer-right"><a href="./index.html">首頁</a><a href="./guide.html">使用指南</a><span>© 2026 AI Learning Atlas · 課程專案示範</span></div></div></footer>
+
+  <dialog class="detail-dialog" id="topic-dialog" aria-labelledby="dialog-title"><div class="dialog-content"><div class="dialog-header"><span id="dialog-category" class="dialog-category"></span><button class="dialog-close" id="dialog-close" type="button" aria-label="關閉詳細內容">✕</button></div><div id="dialog-body"></div><div class="dialog-footer"><button type="button" id="dialog-complete" class="button button-primary">標記為已學會 ✓</button></div></div></dialog>
+</body>
+</html>

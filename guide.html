@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11162e">
+  <meta name="description" content="AI 學習地圖使用指南：從生活例子到實際應用，也了解網站如何依照 AGENTS.md 持續擴充。">
+  <title>使用指南 — AI 學習地圖</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至主要內容</a>
+  <header class="site-header"><div class="container nav-shell"><a class="brand" href="./index.html" aria-label="AI 學習地圖首頁"><span class="brand-icon" aria-hidden="true">A<span>✳</span></span><span>AI <strong>學習地圖</strong><small>LEARNING ATLAS</small></span></a><nav class="nav-links" aria-label="主要導覽"><a href="./index.html">首頁</a><a href="./index.html#learning-path">學習路線</a><a href="./index.html#concepts">概念圖鑑</a><a class="active" href="./guide.html" aria-current="page">使用指南 <span aria-hidden="true">↗</span></a></nav><a class="nav-cta" href="./index.html#concepts">開始探索 <span aria-hidden="true">↗</span></a></div></header>
+  <main id="main-content">
+    <section class="guide-hero"><div class="container guide-heading"><span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> FIELD NOTES / HOW TO USE</span><h1>學習不需要一次到位。<br><em>有方法，就能走得遠。</em></h1><p>這裡不只是一份 AI 名詞表，也是個可以持續成長的網站：內容集中管理，設計遵循共同規則，往後新增概念或頁面，不需要從頭來過。</p></div></section>
+    <section class="section guide-main"><div class="container"><div class="section-topline"><span class="section-label">01 / HOW TO LEARN</span><span class="topline-rule" aria-hidden="true"></span></div><div class="section-heading"><div><h2>每天十分鐘，<br><span>練習三件小事。</span></h2></div></div><div class="guide-step-grid"><article class="guide-step"><span>STEP 01</span><div class="guide-step-icon">◎</div><h3>先用生活語言理解</h3><p>看一張概念卡的「生活類比」，先抓住大方向，不用急著背公式。</p></article><article class="guide-step"><span>STEP 02</span><div class="guide-step-icon">↗</div><h3>把概念連到實際問題</h3><p>接著看「何時派上用場」，問自己：這個技術能解決什麼？</p></article><article class="guide-step"><span>STEP 03</span><div class="guide-step-icon">✓</div><h3>用自己的話解釋</h3><p>嘗試對朋友說明，說得清楚再標記「已學會」，進度會留在瀏覽器。</p></article></div></div></section>
+    <section class="section guide-system"><div class="container"><div class="section-topline"><span class="section-label">02 / BUILT FOR CONTINUITY</span><span class="topline-rule" aria-hidden="true"></span></div><div class="section-heading"><div><h2>不只做一次，<br><span>還能一直擴充。</span></h2></div><p>這份課程作品把規則放在專案根目錄的 <code>AGENTS.md</code>。AI 往後讀到這份檔案，就知道該如何修改網站。</p></div><div class="system-list"><article><span class="system-icon">01</span><div><h3>內容集中在 <code>scripts/data.js</code></h3><p>新增概念只需要依照既定資料格式填入內容，不必直接修改每張卡片的 HTML。</p></div></article><article><span class="system-icon">02</span><div><h3>排版由 <code>styles/main.css</code> 統一管理</h3><p>字體、顏色、間距與響應式規則一致，避免 AI 每次新增功能都做出不同風格。</p></div></article><article><span class="system-icon">03</span><div><h3>互動由 <code>scripts/app.js</code> 處理</h3><p>搜尋、主題篩選、卡片詳細內容與學習進度共用一套邏輯。</p></div></article><article><span class="system-icon">04</span><div><h3>每次改動都檢查與紀錄</h3><p>依 <code>AGENTS.md</code> 執行檢查、實際瀏覽頁面，並在 <code>CHANGELOG.md</code> 留下紀錄，展示可重複使用性。</p></div></article></div></div></section>
+    <section class="section guide-prompt"><div class="container prompt-layout"><div><span class="section-label">03 / TRY AN AI REQUEST</span><h2>下次想擴充？<br><span>直接這樣問 AI。</span></h2><p>下面是可以交給 AI 程式工具的示範需求。檔案裡的規則會告訴它如何延續這個專案，而不是隨意把網站打掉重做。</p></div><div class="prompt-card"><div class="prompt-head"><span>EXAMPLE PROMPT</span><span aria-hidden="true">✳</span></div><p>請先閱讀本專案根目錄的 AGENTS.md，再依照現有資料格式，在「工程實作」類別新增一張「API」學習卡，包含：一句話解釋、生活類比、實際應用、三個重點與關鍵字。保留既有功能和設計，完成後執行測試並更新 CHANGELOG.md。</p><div class="prompt-foot">依循規則 → 新增內容 → 測試 → 記錄</div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><div><div class="footer-logo">AI ✳ 學習地圖</div><p>從一個問題出發，逐步建立自己的 AI 知識。</p></div><div class="footer-right"><a href="./index.html">首頁</a><a href="./guide.html">使用指南</a><span>© 2026 AI Learning Atlas · 課程專案示範</span></div></div></footer>
+</body>
+</html>
